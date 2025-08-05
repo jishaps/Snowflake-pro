@@ -27,6 +27,7 @@ What is the purpose of creating a stream on a table or a view? To track the chan
 What is the name of the hidden column that indicates the DML operation recorded by a stream?METADATA$ACTION
 What is the condition that makes a stream stale and inaccessible? stream object is outside the retension period
 What is the name of the SQL command that manually triggers a single run of a scheduled task? EXECUTE TASK
+What does the USER_TASK_MANAGED_INITIAL_WAREHOUSE_SIZE parameter do in Snowflake? Specifies the size of the compute resources to provision for the first run of the task, before a task history is available for snowflake to determine the ideal size
 
 
 

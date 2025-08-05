@@ -26,6 +26,7 @@ Load History stored for Bulk load metadata and Snowpipe metadata respectively? (
 What is the purpose of creating a stream on a table or a view? To track the changes to the source object over time
 What is the name of the hidden column that indicates the DML operation recorded by a stream?METADATA$ACTION
 What is the condition that makes a stream stale and inaccessible? stream object is outside the retension period
+What is the name of the SQL command that manually triggers a single run of a scheduled task? EXECUTE TASK
 
 
 

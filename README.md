@@ -28,6 +28,8 @@ What is the name of the hidden column that indicates the DML operation recorded 
 What is the condition that makes a stream stale and inaccessible? stream object is outside the retension period
 What is the name of the SQL command that manually triggers a single run of a scheduled task? EXECUTE TASK
 What does the USER_TASK_MANAGED_INITIAL_WAREHOUSE_SIZE parameter do in Snowflake? Specifies the size of the compute resources to provision for the first run of the task, before a task history is available for snowflake to determine the ideal size
+Which of the following is a valid way to specify the record delimiter for CSV files to be loaded? RECORD_DELIMITER='<character>' OR NONE
+What is the keyword that can be used instead of query_id to validate the last load executed during the current session? _LAST
 
 
 

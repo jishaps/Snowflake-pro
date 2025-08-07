@@ -30,6 +30,8 @@ What is the name of the SQL command that manually triggers a single run of a sch
 What does the USER_TASK_MANAGED_INITIAL_WAREHOUSE_SIZE parameter do in Snowflake? Specifies the size of the compute resources to provision for the first run of the task, before a task history is available for snowflake to determine the ideal size
 Which of the following is a valid way to specify the record delimiter for CSV files to be loaded? RECORD_DELIMITER='<character>' OR NONE
 What is the keyword that can be used instead of query_id to validate the last load executed during the current session? _LAST
+What are the 2 types of UDFs in snowflake? Scalar and Tabular
+How can you call a UDF in Snowflake? with SELECT statement
 
 
 

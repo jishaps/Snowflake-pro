@@ -3,6 +3,8 @@ What are the three key layers of Snowflake’s architecture? Storage Layer, proc
 What is the name of the new web interface for Snowflake? snowsight
 How can you change your password or security role in Snowsight? by using the profile section
 What are the two types of warehouses available in Snowflake? standard and snowpark optimized
+Which of the following terms are synonyms for a virtual warehouse in Snowflake? warehouse, compute resource, compute cluster
+Which of the following data types are not supported by Snowflake? bit (date,time,boolean supported)
 What is the standard data retention period for Time Travel in Snowflake? In days. 1
 What is the name of the function that returns the ID of a specified query in the current session? LAST_QUERY_ID()
 What is the default argument for the function LAST_QUERY_ID? -1

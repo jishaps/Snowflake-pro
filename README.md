@@ -34,6 +34,13 @@ Which of the following is a valid way to specify the record delimiter for CSV fi
 What is the keyword that can be used instead of query_id to validate the last load executed during the current session? _LAST
 What are the 2 types of UDFs in snowflake? Scalar and Tabular
 How can you call a UDF in Snowflake? with SELECT statement
+What is the name of the file format option that specifies whether to skip any blank lines in the data files?SKIP_BLANK_LINES
+
+
+
+
+
+
 
 
 

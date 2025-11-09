@@ -40,7 +40,21 @@ What is the name of the authentication method that requires a public/private key
 Load History stored for Bulk load metadata and Snowpipe metadata respectively? (In Days) 64&14
 What is the name of the SQL command that manually triggers a single run of a scheduled task? EXECUTE TASK
 What does the USER_TASK_MANAGED_INITIAL_WAREHOUSE_SIZE parameter do in Snowflake? specifies the compute resources to provision for the first run of the task before a task history is availale for snowflake to determine the ideal size
+What is the name of the hidden column that indicates the DML operation recorded by a stream? METADATA$ACTION
+What is the condition that makes a stream stale and inaccessible? the stream offset is outside the data retension period of the source object
+What is the name of the column that indicates the staleness status of a stream? STALE_AFTER
 
+
+
+
+
+ 
+
+
+
+
+
+ 
 
 
 

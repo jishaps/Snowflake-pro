@@ -35,6 +35,13 @@ What is the keyword that can be used instead of query_id to validate the last lo
 What are the 2 types of UDFs in snowflake? Scalar and Tabular
 How can you call a UDF in Snowflake? with SELECT statement
 What is the name of the file format option that specifies whether to skip any blank lines in the data files?SKIP_BLANK_LINES
+What is the purpose of the NULL_IF file format option? to specify one or string values that should be converted to NULL
+
+
+
+
+
+
 
 
 

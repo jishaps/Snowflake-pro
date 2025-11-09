@@ -38,6 +38,7 @@ What is the name of the file format option that specifies whether to skip any bl
 What is the purpose of the NULL_IF file format option? to specify one or string values that should be converted to NULL
 What is the name of the authentication method that requires a public/private key pair with RSA encryption when calling the Snowpipe REST endpoints?2   JWT (JWT, or JSON Web Tokens, is the correct answer because it utilizes a public/private key pair with RSA encryption for authentication, which is necessary when accessing the Snowpipe REST endpoints. This method ensures secure communication and verification of identity in web applications.)
 Load History stored for Bulk load metadata and Snowpipe metadata respectively? (In Days) 64&14
+What is the name of the SQL command that manually triggers a single run of a scheduled task? EXECUTE TASK
 
 
 

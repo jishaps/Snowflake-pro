@@ -47,7 +47,10 @@ Which of the following is a valid way to specify the compression algorithm for t
 Which of the following is a valid way to specify the record delimiter for CSV files to be loaded? RECORD_DELIMITER = ‘<character>’ or NONE
 What is the name of the function that validates the files loaded in a past execution of the COPY INTO <table> command? VALIDATE
 What is the keyword that can be used instead of query_id to validate the last load executed during the current session?_LAST
-hich of the following is a valid way to specify the error handling for the load operation? ON_ERROR = CONTINUE | SKIP_FILE | SKIP_FILE_num | ‘SKIP_FILE_num%’ | ABORT_STATEMENT
+Which of the following is a valid way to specify the error handling for the load operation? ON_ERROR = CONTINUE | SKIP_FILE | SKIP_FILE_num | ‘SKIP_FILE_num%’ | ABORT_STATEMENT
+What is the difference between a UDF and a stored procedure in Snowflake? A UDF is a function that can be called from SQL, while a stored procedure is a script that can be executed with the CALL statement
+What are the two types of UDFs in Snowflake? Scalar and Tabular (tabular returns table)
+How can you call a UDF in Snowflake? With a SELECT statement that specifies the function as a parameter
 
 
 

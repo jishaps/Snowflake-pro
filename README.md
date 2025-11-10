@@ -43,6 +43,11 @@ What does the USER_TASK_MANAGED_INITIAL_WAREHOUSE_SIZE parameter do in Snowflake
 What is the name of the hidden column that indicates the DML operation recorded by a stream? METADATA$ACTION
 What is the condition that makes a stream stale and inaccessible? the stream offset is outside the data retension period of the source object
 What is the name of the column that indicates the staleness status of a stream? STALE_AFTER
+Which of the following is a valid way to specify the compression algorithm for the data files to be loaded?COMPRESSION = AUTO | GZIP | BZ2 | BROTLI | ZSTD | DEFLATE | RAW_DEFLATE | NONE
+Which of the following is a valid way to specify the record delimiter for CSV files to be loaded? RECORD_DELIMITER = ‘<character>’ or NONE
+What is the name of the function that validates the files loaded in a past execution of the COPY INTO <table> command? VALIDATE
+What is the keyword that can be used instead of query_id to validate the last load executed during the current session?_LAST
+hich of the following is a valid way to specify the error handling for the load operation? ON_ERROR = CONTINUE | SKIP_FILE | SKIP_FILE_num | ‘SKIP_FILE_num%’ | ABORT_STATEMENT
 
 
 

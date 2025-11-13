@@ -51,6 +51,9 @@ Which of the following is a valid way to specify the error handling for the load
 What is the difference between a UDF and a stored procedure in Snowflake? A UDF is a function that can be called from SQL, while a stored procedure is a script that can be executed with the CALL statement
 What are the two types of UDFs in Snowflake? Scalar and Tabular (tabular returns table)
 How can you call a UDF in Snowflake? With a SELECT statement that specifies the function as a parameter
+What is the name of the parameter that specifies the number of days for which Snowflake retains historical data for Time Travel actions on an object? dat_retention_time_in_days
+What are some best practices to avoid data unavailability errors when cloning tables with zero data retention time?Setting the DATA_RETENTION_TIME_IN_DAYS=1 before cloning and refrain from executing DML transactions on the source table
+What can cause a data unavailability error when cloning a table with zero data retention time?Executing DML transactions on the source table during cloning
 
 
 

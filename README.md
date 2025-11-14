@@ -57,6 +57,12 @@ What can cause a data unavailability error when cloning a table with zero data r
 What is the name of the function that can be used to query semi-structured data in Snowflake?FLATTEN
 What is the name of the property of semi-structured data that allows it to be loaded into relational tables without requiring a schema in advance in Snowflake? Schema-on-read
 Which of these Snowflake format supported by Snowflake? json,avro,xml,parquet,ORC
+What is the name of the function that generates a scoped Snowflake-hosted URL to a staged file?BUILD_SCOPED_FILE_URL
+What is the name of the feature that stores a catalog of staged files in cloud storage? Directory tables
+What is the name of the parameter that specifies the length of time for a pre-signed URL to be valid? expiration_time
+What is the name of the function that returns the URL for an external or internal named stage using the stage name as the input?GET_STAGE_LOCATION
+What is the name of the function that extracts the path of a staged file relative to its location in the stage using the stage name and absolute file path in cloud storage as inputs?GET_RELATIVE_PATH
+What is the name of the function that generates a Snowflake-hosted file URL to a staged file using the stage name and relative file path as inputs?BUILD_STAGE_FILE_URL
 
 
 

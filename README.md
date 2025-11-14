@@ -54,6 +54,9 @@ How can you call a UDF in Snowflake? With a SELECT statement that specifies the 
 What is the name of the parameter that specifies the number of days for which Snowflake retains historical data for Time Travel actions on an object? dat_retention_time_in_days
 What are some best practices to avoid data unavailability errors when cloning tables with zero data retention time?Setting the DATA_RETENTION_TIME_IN_DAYS=1 before cloning and refrain from executing DML transactions on the source table
 What can cause a data unavailability error when cloning a table with zero data retention time?Executing DML transactions on the source table during cloning
+What is the name of the function that can be used to query semi-structured data in Snowflake?FLATTEN
+What is the name of the property of semi-structured data that allows it to be loaded into relational tables without requiring a schema in advance in Snowflake? Schema-on-read
+Which of these Snowflake format supported by Snowflake? json,avro,xml,parquet,ORC
 
 
 

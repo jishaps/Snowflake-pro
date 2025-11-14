@@ -63,6 +63,9 @@ What is the name of the parameter that specifies the length of time for a pre-si
 What is the name of the function that returns the URL for an external or internal named stage using the stage name as the input?GET_STAGE_LOCATION
 What is the name of the function that extracts the path of a staged file relative to its location in the stage using the stage name and absolute file path in cloud storage as inputs?GET_RELATIVE_PATH
 What is the name of the function that generates a Snowflake-hosted file URL to a staged file using the stage name and relative file path as inputs?BUILD_STAGE_FILE_URL
+What is the difference between STORAGE_ALLOWED_LOCATIONS and STORAGE_BLOCKED_LOCATIONS for a storage integration in Snowflake?STORAGE_ALLOWED_LOCATIONS defines which storage locations can be accessed by the stages utilizing the integration, while STORAGE_BLOCKED_LOCATIONS specifies which locations are off-limits for those same stages. 
+What is the syntax for creating or replacing a storage integration in Snowflake? CREATE OR REPLACE STORAGE INTEGRATION sample_int
+  TYPE = EXTERNAL_STAGE
 
 
 

@@ -71,6 +71,11 @@ What is the sampling method that is not supported for fixed-size sampling?SYSTEM
 What is the maximum number of rows that can be requested for fixed-size sampling?1000000
 What is the effect of specifying a seed value for sampling? Specifying a seed value for sampling makes the process deterministic because it ensures that the same sample can be generated consistently across multiple runs.
 What algorithm does Snowflake use to estimate the approximate number of distinct values in a data set?HLL(HyperLoglog)
+What is the name of the partitioning technique used by Snowflake Data Platform?Micro-partitioning
+What is the range of uncompressed data size for each micro-partition in Snowflake? 50-500MB
+What is the term used to describe the average depth of overlapping micro-partitions for specified columns in a table? clustering depth
+What is the benefit of storing columns independently within micro-partitions?efficient scanning, compression and pruning
+What is the system function that can be used to view the clustering metadata for a table?SYSTEM$CLUSTERING_INFORMATION
 
 
 

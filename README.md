@@ -65,7 +65,12 @@ What is the name of the function that extracts the path of a staged file relativ
 What is the name of the function that generates a Snowflake-hosted file URL to a staged file using the stage name and relative file path as inputs?BUILD_STAGE_FILE_URL
 What is the difference between STORAGE_ALLOWED_LOCATIONS and STORAGE_BLOCKED_LOCATIONS for a storage integration in Snowflake?STORAGE_ALLOWED_LOCATIONS defines which storage locations can be accessed by the stages utilizing the integration, while STORAGE_BLOCKED_LOCATIONS specifies which locations are off-limits for those same stages. 
 What is the syntax for creating or replacing a storage integration in Snowflake? CREATE OR REPLACE STORAGE INTEGRATION sample_int
-  TYPE = EXTERNAL_STAGE
+TYPE = EXTERNAL_STAGE
+What is the name of the keyword generates a unique value in SEQUENCE?NEXTVAL
+What is the sampling method that is not supported for fixed-size sampling?SYSTEM | BLOCK
+What is the maximum number of rows that can be requested for fixed-size sampling?1000000
+What is the effect of specifying a seed value for sampling? Specifying a seed value for sampling makes the process deterministic because it ensures that the same sample can be generated consistently across multiple runs.
+What algorithm does Snowflake use to estimate the approximate number of distinct values in a data set?HLL(HyperLoglog)
 
 
 

@@ -76,6 +76,11 @@ What is the range of uncompressed data size for each micro-partition in Snowflak
 What is the term used to describe the average depth of overlapping micro-partitions for specified columns in a table? clustering depth
 What is the benefit of storing columns independently within micro-partitions?efficient scanning, compression and pruning
 What is the system function that can be used to view the clustering metadata for a table?SYSTEM$CLUSTERING_INFORMATION
+How long (Hours) does Snowflake persist query results in the query result cache? 24
+What is the purpose of the metadata cache in Snowflake?To store metadata about tables and columns
+What is the name of the tool that provides execution details for a query in Snowflake?Query Profile
+What information can you find in the Node List section of the Query Profile page? The execution time for each node
+What information can you find in the Operator Tree section of the Query Profile page?the amount of data scanned by each operator
 
 
 

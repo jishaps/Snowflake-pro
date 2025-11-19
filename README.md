@@ -81,6 +81,11 @@ What is the purpose of the metadata cache in Snowflake?To store metadata about t
 What is the name of the tool that provides execution details for a query in Snowflake?Query Profile
 What information can you find in the Node List section of the Query Profile page? The execution time for each node
 What information can you find in the Operator Tree section of the Query Profile page?the amount of data scanned by each operator
+Which of the following functions can be used to estimate the cost of adding search optimization to a table? SYSTEM$ESTIMATE_SEARCH_OPTIMIZATION_COSTS
+Which of the following statements is true about search optimization and Time Travel?search optimization specifically targets active data, meaning it does not enhance the performance of queries that leverage Time Travel, which deals with historical data.
+How can you identify the queries that might benefit from the query acceleration service?By using the QUERY_ACCELERATION_ELIGIBLE view or the SYSTEM$ESTIMATE_QUERY_ACCELERATION function
+What is the main purpose of the query acceleration service?designed specifically to handle outlier queries by distributing their processing workloads to shared compute resources, thus improving overall system efficiency and performance.
+What is the name of the schema that provides cost information for the account?ACCOUNT_USAGE
 
 
 

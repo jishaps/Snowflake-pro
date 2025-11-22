@@ -86,6 +86,11 @@ Which of the following statements is true about search optimization and Time Tra
 How can you identify the queries that might benefit from the query acceleration service?By using the QUERY_ACCELERATION_ELIGIBLE view or the SYSTEM$ESTIMATE_QUERY_ACCELERATION function
 What is the main purpose of the query acceleration service?designed specifically to handle outlier queries by distributing their processing workloads to shared compute resources, thus improving overall system efficiency and performance.
 What is the name of the schema that provides cost information for the account?ACCOUNT_USAGE
+What are the two access control models that Snowflake combines? Discretionary Access Control and Role-based Access Control
+What is a securable object in Snowflake? An entity that can be accessed by other entitie
+What is the difference between a primary role and a secondary role? primary role in Snowflake indeed determines the ownership of objects created during a session, defining who has control over those objects, while a secondary role only provides additional privileges without ownership implications
+What is the name of the schema-level object that determines whether a given row in a table or view can be viewed from certain types of statements? Row Access Policy
+What is the name of the feature that uses masking policies to selectively mask plain-text data in table and view columns at query time? dynamic data masking
 
 
 

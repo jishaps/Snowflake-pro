@@ -91,6 +91,33 @@ What is a securable object in Snowflake? An entity that can be accessed by other
 What is the difference between a primary role and a secondary role? primary role in Snowflake indeed determines the ownership of objects created during a session, defining who has control over those objects, while a secondary role only provides additional privileges without ownership implications
 What is the name of the schema-level object that determines whether a given row in a table or view can be viewed from certain types of statements? Row Access Policy
 What is the name of the feature that uses masking policies to selectively mask plain-text data in table and view columns at query time? dynamic data masking
+What is the name of the service that powers MFA in Snowflake? Duo
+What is the name of the parameter that enables MFA token caching for an account?ALLOW_CLIENT_MFA_CACHING
+What is the role of Snowflake in a federated environment?SP
+Which of the following vendors provide native Snowflake support for federated authentication and SSO?Okta and AD FS
+What is the name of the shared database that provides historical usage data for all accounts in an organization?SNOWFLAKE
+What is the purpose of the CURRENT_REGION context function?To retrieve the region in which your account is located
+What type of IP addresses does Snowflake support for network policies?IPv4
+How can you activate a network policy for an individual user in Snowflake?By setting the NETWORK_POLICY parameter for the user using ALTER USER
+What is the benefit of rekeying data periodically?It ensures that data is encrypted with the latest security technology
+What is the name of the schema that Snowflake automatically creates in every database in an account?INFORMATION_SCHEMA
+What error is returned if the filters specified in an Information Schema query are not sufficiently selective?Information schema query returned too much data. Please repeat query with more selective predicates
+What is the difference between the ACCOUNT_USAGE and READER_ACCOUNT_USAGE views?ACCOUNT_USAGE views provide detailed metadata and usage metrics specific to your account, while the READER_ACCOUNT_USAGE views offer similar but limited information focused on all associated reader accounts.
+What is the retention period of the ACCOUNT_USAGE views that display historical usage metrics?1 year
+What is the name of the view that provides user access history in Snowflake?ACCESS_HISTORY
+What is the name of the column that records the DDL operations on database objects in the ACCESS_HISTORY view?OBJECT_MODIFIED_BY_DDL
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

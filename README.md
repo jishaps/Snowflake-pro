@@ -106,6 +106,15 @@ What is the difference between the ACCOUNT_USAGE and READER_ACCOUNT_USAGE views?
 What is the retention period of the ACCOUNT_USAGE views that display historical usage metrics?1 year
 What is the name of the view that provides user access history in Snowflake?ACCESS_HISTORY
 What is the name of the column that records the DDL operations on database objects in the ACCESS_HISTORY view?OBJECT_MODIFIED_BY_DDL
+What is the difference between a full Snowflake account and a reader account in terms of data sharing?a full Snowflake account has the capability to both share and receive data, while a reader account is limited to only consuming data shared by its provider account
+What are the three options for sharing data in Snowflake?a listing, which catalogs shared objects, a direct share, which allows secure access to specific data, and a data exchange, which facilitates data trading between different organizations
+What is the main purpose of Data Exchange?a Data Exchange in Snowflake serves as a secure platform where a defined group of members can collaborate and share data effectively, facilitating controlled access and interaction around shared information.
+What is the name of the feature that allows you to create trial accounts with selected Snowflake business partners and integrate them with Snowflake?Partner Connect
+Which of the following objects are not replicated with database replication? PIPE,account parameters, privileges granted on database objects
+What is the main advantage of Secure Data Sharing in Snowflake?consumers can only access the shared data without the ability to alter or delete it, ensuring data integrity and security for the provider. 
+Which of the following languages is not supported by a Snowflake driver?pascal. it supports Go, c#, Java
+How can you control the flow of execution with conditional statements in Snowflake Scripting?IF-ELSE,CASE
+What is the main purpose of Snowpark?Snowpark is designed to empower developers to use their preferred programming languages, such as Python or Java, directly within the Snowflake environment, enhancing flexibility and integration in data processing tasks.
 
 
 

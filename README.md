@@ -105,7 +105,47 @@ What is the main advantage of Secure Data Sharing in Snowflake?consumers can onl
 Which of the following languages is not supported by a Snowflake driver?pascal. it supports Go, c#, Java
 How can you control the flow of execution with conditional statements in Snowflake Scripting?IF-ELSE,CASE
 What is the main purpose of Snowpark?Snowpark is designed to empower developers to use their preferred programming languages, such as Python or Java, directly within the Snowflake environment, enhancing flexibility and integration in data processing tasks.
-
+Which of the following actions can a user with the ORGADMIN role perform? (Choose 2) Create an account in the organization, Enable database replication for an account in the organization
+How can you add a directory table to a stage? (Choose 2)By using CREATE STAGE with the DIRECTORY_TABLE option, By using ALTER STAGE with the DIRECTORY_TABLE option
+What is the main difference between Snowflake and traditional database technologies or big data platforms?Snowflake uses a hybrid of shared-disk and shared-nothing architectures1
+What is the default value of the ON_ERROR option in the COPY INTO <table> command?ABORT_STATEMENT
+In Snowsight, Are views visible directly under the INFORMATION_SCHEMA?Yes, only the views are visible directly under INFORMATION_SCHEMA
+Which SQL commands can you use to work with directory tables? (multiple answers) ALTER STAGE, CREATE STAGE
+Which of the following operations require a warehouse to be running and in use for the session? Loading data into tables using DML operations, Executing SQL SELECT statements that require compute resources
+Which of the following database objects can be shared with other Snowflake account?Secure Materialized View, Secure Views, Tables
+How can you add search optimization for a specific column and a specific search method?Use ALTER TABLE … ADD SEARCH OPTIMIZATION ON <method>(<column>) *
+Which of the following statements are true about network policies? (Choose two)Network policies can be created by any user with sufficient privileges.Network policies support only IPv4 addresses
+What are some examples of data that consumers might use from the Snowflake Marketplace?Up-to-date streaming data, such as current weather and traffic conditions.Specialized identity data for understanding subscribers and audience targets,Historical data for research, forecasting, and machine learning
+Which of the following constraints are always enforced by SnowflakeNOT NULL
+How can you return recent execution times and other query metadata using the Information Schema?Use the QUERY_HISTORY table functions
+What is the effect of adding 0.0.0.0/0 to the blocked IP address list in a network policy?It blocks all IPv4 addresses on the local machine.
+Which of the following categories are included in the table of 3rd-party partners and technologies?Machine Learning, Data Integration, Data Visualization
+What is the purpose of the query acceleration service?To improve overall warehouse performance, To reduce the impact of outlier queries, To accelerate parts of the query workload in a warehouse
+Which of the following statements are true about Fail-safe for tables in Snowflake? (Select three)Fail-safe can only be accessed by Snowflake Support to recover data upon customer request.Fail-safe is automatically enabled for all permanent tables and cannot be disabled.Fail-safe is a feature that enables data recovery after it is no longer accessible through Time Travel
+What type of objects does the Snowflake Information Schema contain?Table Function, Views
+What is the syntax for returning the ID of the first query executed in the current session using LAST_QUERY_ID?LAST_QUERY_ID(1)
+Which of the following properties are part of a customized schedule for a resource monitor? (Choose three)Start timestamp, End timestamp, Frequency
+What is the name of the aggregate function that returns a MinHash state containing a MinHash array of length k?MINHASH
+What is the name of the data structure that the search optimization service creates and maintains for each table?Search access path
+Which of the following methods can be used to log in with MFA instead of using the push notification? (Choose two)Enter a Passcode, Call Me
+What is the main purpose of the MinHash scheme?To compare sets without computing the intersection or union
+What are the two ways to advance the offset of a stream to the current table version without consuming the change data in a DML operation?Recreate the stream or insert the current change data into a temporary table.
+What is the difference between BERNOULLI and SYSTEM sampling methods?BERNOULLI includes each row with a probability of p/100, while SYSTEM includes each block of rows with a probability of p/100
+Which languages are currently supported by Snowpark libraries?Java, Python, Scala
+Which of the following compression types are supported by the SOURCE_COMPRESSION option in the PUT command?BROTLI, GZIP, BZ2
+Which of the following statements are true about unstructured data in Snowflake? (Choose all that apply)You can use Snowsight to click on a generated scoped, pre-signed, or file URL and download the referenced file, You can use server-side encryption when you create an internal stage with SNOWFLAKE_SSE encryption type, Both external and internal stages support unstructured data
+How does Snowflake leverage clustering metadata to avoid unnecessary scanning of micro-partitions?By pruning the micro-partitions that do not match the filter predicates
+Which of the following statements are true about the result cache layer? (Choose two)It is invalidated by the current_time() function,It is available across virtual warehouses
+What is the purpose of a user-defined function (UDF) in Snowflake?To call a function from SQL and manipulate data within the constraints of the handler language, To extend the system with operations that are not available through the built-in functions, To encapsulate functionality so that it can be called repeatedly from multiple places in code
+Which two methods can be used to view data storage for individual tables in Snowflake?TABLE_STORAGE_METRICS view, SHOW TABLES command
+Which of the following categories of time spent can be displayed in the Profile Overview?Remote Disk IO, Initialization, Local Disk IO
+What is the name of the schema that contains the Snowflake Access History View? ACCOUNT_USAGE
+Which schema contains views related to the execution times of queries and tasks?ACCOUNT_USAGE
+Which of the following privileges are required for roles other than account administrators to view and modify resource monitors using SQL? (Choose2)MONITOR,MODIFY
+Which of the following factors affect the storage charges that Snowflake bills your account for using tables?The Fail-safe period for the table, The table type (permanent, transient, or temporary), The Time Travel retention period for the table
+Which of the following keywords are used to clone an object as of a specified time or point in the past?AT, BEFORE, STATEMENT
+Which of the following statements are true about the PUBLIC role? (Choose 3)It is typically used when explicit access control is not needed.It can own securable objects.It is automatically granted to every user and role in the account.
+Which of the following statements are true about re-clustering a table in Snowflake? (Choose two)Reclustering consumes credits and results in storage costs, Reclustering co-locates similar rows in the same micro-partitions.
 
 
 

@@ -34,14 +34,6 @@ Which of the following is a valid way to specify the record delimiter for CSV fi
 What is the keyword that can be used instead of query_id to validate the last load executed during the current session? _LAST
 What are the 2 types of UDFs in snowflake? Scalar and Tabular
 How can you call a UDF in Snowflake? with SELECT statement
-What is the name of the file format option that specifies whether to skip any blank lines in the data files?SKIP_BLANK_LINES
-What is the purpose of the NULL_IF file format option? to specify one or string values that should be converted to NULL
-What is the name of the authentication method that requires a public/private key pair with RSA encryption when calling the Snowpipe REST endpoints?2   JWT (JWT, or JSON Web Tokens, is the correct answer because it utilizes a public/private key pair with RSA encryption for authentication, which is necessary when accessing the Snowpipe REST endpoints. This method ensures secure communication and verification of identity in web applications.)
-Load History stored for Bulk load metadata and Snowpipe metadata respectively? (In Days) 64&14
-What is the name of the SQL command that manually triggers a single run of a scheduled task? EXECUTE TASK
-What does the USER_TASK_MANAGED_INITIAL_WAREHOUSE_SIZE parameter do in Snowflake? specifies the compute resources to provision for the first run of the task before a task history is availale for snowflake to determine the ideal size
-What is the name of the hidden column that indicates the DML operation recorded by a stream? METADATA$ACTION
-What is the condition that makes a stream stale and inaccessible? the stream offset is outside the data retension period of the source object
 What is the name of the column that indicates the staleness status of a stream? STALE_AFTER
 Which of the following is a valid way to specify the compression algorithm for the data files to be loaded?COMPRESSION = AUTO | GZIP | BZ2 | BROTLI | ZSTD | DEFLATE | RAW_DEFLATE | NONE
 Which of the following is a valid way to specify the record delimiter for CSV files to be loaded? RECORD_DELIMITER = ‘<character>’ or NONE

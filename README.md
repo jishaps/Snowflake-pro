@@ -83,7 +83,7 @@ What is the name of the schema-level object that determines whether a given row 
 What is the name of the feature that uses masking policies to selectively mask plain-text data in table and view columns at query time? dynamic data masking
 What is the name of the service that powers MFA in Snowflake? Duo
 What is the name of the parameter that enables MFA token caching for an account?ALLOW_CLIENT_MFA_CACHING
-What is the role of Snowflake in a federated environment?SP
+What is the role of Snowflake in a federated environment?SP (Service Provider)
 Which of the following vendors provide native Snowflake support for federated authentication and SSO?Okta and AD FS
 What is the name of the shared database that provides historical usage data for all accounts in an organization?SNOWFLAKE
 What is the purpose of the CURRENT_REGION context function?To retrieve the region in which your account is located

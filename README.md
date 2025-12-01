@@ -146,6 +146,47 @@ Which of the following factors affect the storage charges that Snowflake bills y
 Which of the following keywords are used to clone an object as of a specified time or point in the past?AT, BEFORE, STATEMENT
 Which of the following statements are true about the PUBLIC role? (Choose 3)It is typically used when explicit access control is not needed.It can own securable objects.It is automatically granted to every user and role in the account.
 Which of the following statements are true about re-clustering a table in Snowflake? (Choose two)Reclustering consumes credits and results in storage costs, Reclustering co-locates similar rows in the same micro-partitions.
+Which SQL command determines whether a network policy is set on the account or for a specific user?SHOW PARAMETERS
+John is trying to load JSON data sets with a huge array containing multiple records. Considering the VARIANT data type imposed size of 16 MB, what do you recommend to John for optimally loading the data?Enable the STRIP_OUTER_ARRAY file format option for the COPY INTO <table> command.
+Which privileges are provided with a share by the provider? (Select 2)Grant access(SELECT) to the specific tables in the database, Grant access(USAGE) to the database and the schema containing the tables to share
+Which of these types of VIEW does Snowflake support? (Select 3)Standard View, Secure View, and Materialized View. 
+How can we turn off the query result cache?Setting the parameter USE_CACHED_RESULT to FALSE
+Which view in the Account Usage Schema can be used to query the replication history for a specified database?REPLICATION_USAGE_HISTORY
+What would happen if we suspend the warehouse while it is executing the SQL statement?Only idle compute resources of the warehouse will be shut down, allowing any compute resources executing statements to continue until the statement is complete.
+Snowflake blocks certain IPs by default to ensure that customer is getting the highest level of Network security. (TRUE / FALSE)False
+Monica ran a SELECT query on a large table t1. The query took longer than expected. She examined the query profile and noticed that 'Bytes spilled to local storage' and 'Bytes spilled to remote storage' were significantly high. What advice would you give her to improve the query performance? (Select 3)Using a larger warehouse (effectively increasing the available memory and local disk space for the operation), Splitting the processing into multiple steps.Processing data in smaller batches.
+What is the expiration period of a File URL?It is Permanent
+John has to create a PIPE that will be triggered for loading by calling the Snowpipe REST endpoints. What parameter does he need to specify in CREATE PIPE statement?AUTO_INGEST = FALSE
+A stored procedure can simultaneously run the caller’s and the owner’s rights. (True / False)False
+If a user is logged in to Snowflake in a federated environment and IdP times out, what does happen to the user's snowflake session?It does not affect the user's Snowflake sessions. However, to initiate any new Snowflake sessions, the user must log into the IdP again.
+In what situations should you consider User-Managed Tasks over Serverless Tasks? (Select 2)Consider when you can fully utilize a single warehouse by scheduling multiple concurrent tasks to take advantage of available compute resources.Consider when adherence to the schedule interval is less important.
+File URL is ideal for?custom applications that require access to unstructured data files
+Time Travel can be disabled for an account by ACCOUNTADMIN. (True/False)false
+Which stream type is supported for streams on the external table only? Insert-only
+If an account has federated authentication enabled. Can Snowflake admins still maintain user IDs and passwords in Snowflake?yes
+If you create a Network Policy by providing both 'Allowed IP Addresses' and 'Blocked IP Addresses', which is applied first by Snowflake while validating the access?Blocked IP Addresses
+Which schema can be used to find out about storage, compute, and objects in a Snowflake account?INFORMATION_SCHEMA
+The data objects stored by Snowflake are not directly visible nor accessible by customers; they are only accessible through SQL query operations run using Snowflake. (True/False)true
+The major benefits of defining Clustering Keys:  (Select 2)To help optimize table maintenance, To help improve query performance
+Which of these are not supported by the Search Optimization Service? (Select all that apply)ALL. None of these are currently supported by the Search Optimization Service. 
+If you recreate a pipe using CREATE OR REPLACE PIPE command. What does happen to load history if the Snowpipe gets recreated?The load history gets reset to empty
+Which copyOptions can help load a file with expired metadata (if the LAST_MODIFIED date is older than 64 days and the initial set of data was loaded into the table more than 64 days earlier (and if the file was loaded into the table, that also occurred more than 64 days earlier))? (Select 2)LOAD_UNCERTAIN_FILES = TRUE FORCE = TRUE
+Multi-cluster warehouses are beneficial in improving the performance of slow-running queries or data loading. (True/False)false
+Micro-partitioning is the on-demand feature of Snowflake. It is required to be enabled explicitly by ACCOUNTADMIN. (True / False)false
+What value will be returned by the following query? SELECT * FROM TABLE(FLATTEN(input => parse_json('[]'))) f;
+ Nothing will return or, the output of the input row will be omitted
+Only the user who generated the scoped URL can use the URL to access the referenced file. (True/False)true
+The Snowflake Information Schema includes table functions you can query to retrieve information about your directory tables. Which table function can be used to query the history of data files registered in the metadata of specified objects and the credits billed for these operations?AUTO_REFRESH_REGISTRATION_HISTORY
+Which of these SQL functions helps returns the absolute path of a staged file using the stage name and path of the file relative to its location in the stage as inputs.?GET_ABSOLUTE_PATH
+A user cannot view the result set from a query that another user executed except for the ACCOUNTADMIN role. (True / False)false
+Snowflake Query history page allows you to view the details of all the queries executed in the last 31 days. (True/False)false.it is 14 days
+What is the purpose of VALIDATION_MODE in the COPY INTO <table> command?VALIDATION_MODE is used to validate the load file for errors instead of loading it into the specified table.
+If you drop or disable a user in Snowflake in an Okta IdP federated environment, the user can still access Snowflake login through Okta. (True/False)false
+A user's default role is ? the role a user gets set to each time the user logs in to Snowflake.
+Which of these are Snowgrid's capabilities? (Select all that apply)Share internally with private data exchange or externally with public data exchange. Secure, governed data sharing. Live, ready to query data
+What will happen if a policy is assigned to a user who is already signed in?The user can't do anything else until signed in and signed back in again.
+Search optimization is a Database-level property applied to all the tables within the database with supported data types. (True/False)false
+When deciding whether to suspend a warehouse or leave it running, what should you consider?Consider the trade-off between saving credits by suspending the warehouse versus maintaining the cache of data from the previous queries to help with performance.
 
 
 

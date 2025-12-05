@@ -187,6 +187,14 @@ Which of these are Snowgrid's capabilities? (Select all that apply)Share interna
 What will happen if a policy is assigned to a user who is already signed in?The user can't do anything else until signed in and signed back in again.
 Search optimization is a Database-level property applied to all the tables within the database with supported data types. (True/False)false
 When deciding whether to suspend a warehouse or leave it running, what should you consider?Consider the trade-off between saving credits by suspending the warehouse versus maintaining the cache of data from the previous queries to help with performance.
+Snowflake supports _______REST API for unstructured data
+Fail-safe helps access historical data after the Time Travel retention period has ended. (True/False)False
+Snowflake prunes micro-partitions based on a predicate with a subquery, even if the subquery result is constant. (TRUE/FALSE) false
+Which Snowsight interface does help in setting up Multi-factor authentication (MFA)? user menu interface
+A Directory table is a separate database object that stores a catalog of staged files in cloud storage. (True/False)false
+
+
+
 
 
 

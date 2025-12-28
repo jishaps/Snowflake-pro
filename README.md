@@ -36,9 +36,7 @@ What are the 2 types of UDFs in snowflake? Scalar and Tabular
 How can you call a UDF in Snowflake? with SELECT statement
 What is the name of the column that indicates the staleness status of a stream? STALE_AFTER
 Which of the following is a valid way to specify the compression algorithm for the data files to be loaded?COMPRESSION = AUTO | GZIP | BZ2 | BROTLI | ZSTD | DEFLATE | RAW_DEFLATE | NONE
-Which of the following is a valid way to specify the record delimiter for CSV files to be loaded? RECORD_DELIMITER = ‘<character>’ or NONE
 What is the name of the function that validates the files loaded in a past execution of the COPY INTO <table> command? VALIDATE
-What is the keyword that can be used instead of query_id to validate the last load executed during the current session?_LAST
 Which of the following is a valid way to specify the error handling for the load operation? ON_ERROR = CONTINUE | SKIP_FILE | SKIP_FILE_num | ‘SKIP_FILE_num%’ | ABORT_STATEMENT
 What is the difference between a UDF and a stored procedure in Snowflake? A UDF is a function that can be called from SQL, while a stored procedure is a script that can be executed with the CALL statement
 What is the name of the parameter that specifies the number of days for which Snowflake retains historical data for Time Travel actions on an object? dat_retention_time_in_days
@@ -77,7 +75,7 @@ How can you identify the queries that might benefit from the query acceleration 
 What is the main purpose of the query acceleration service?designed specifically to handle outlier queries by distributing their processing workloads to shared compute resources, thus improving overall system efficiency and performance.
 What is the name of the schema that provides cost information for the account?ACCOUNT_USAGE
 What are the two access control models that Snowflake combines? Discretionary Access Control and Role-based Access Control
-What is a securable object in Snowflake? An entity that can be accessed by other entitie
+What is a securable object in Snowflake? An entity that can be accessed by other entity
 What is the difference between a primary role and a secondary role? primary role in Snowflake indeed determines the ownership of objects created during a session, defining who has control over those objects, while a secondary role only provides additional privileges without ownership implications
 What is the name of the schema-level object that determines whether a given row in a table or view can be viewed from certain types of statements? Row Access Policy
 What is the name of the feature that uses masking policies to selectively mask plain-text data in table and view columns at query time? dynamic data masking

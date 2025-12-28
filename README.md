@@ -190,7 +190,7 @@ Fail-safe helps access historical data after the Time Travel retention period ha
 Snowflake prunes micro-partitions based on a predicate with a subquery, even if the subquery result is constant. (TRUE/FALSE) false
 Which Snowsight interface does help in setting up Multi-factor authentication (MFA)? user menu interface
 A Directory table is a separate database object that stores a catalog of staged files in cloud storage. (True/False)false
-
+Snowflake uses a _____ for persisted data that is accessible from all compute nodes in the platform. Central Data Repository
 
 
 

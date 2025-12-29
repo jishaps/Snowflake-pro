@@ -191,7 +191,8 @@ Snowflake prunes micro-partitions based on a predicate with a subquery, even if 
 Which Snowsight interface does help in setting up Multi-factor authentication (MFA)? user menu interface
 A Directory table is a separate database object that stores a catalog of staged files in cloud storage. (True/False)false
 Snowflake uses a _____ for persisted data that is accessible from all compute nodes in the platform. Central Data Repository
-
+The 3rd party tools and technologies as well as the snowflake provided clients is classified as ___ Snowflake Ecosystem tool
+Clustering key cannot be created automatically. True
 
 
 

@@ -193,6 +193,10 @@ A Directory table is a separate database object that stores a catalog of staged 
 Snowflake uses a _____ for persisted data that is accessible from all compute nodes in the platform. Central Data Repository
 The 3rd party tools and technologies as well as the snowflake provided clients is classified as ___ Snowflake Ecosystem tool
 Clustering key cannot be created automatically. True
+A network policy can be activated at Account Level & User Level
+A materialized view can be undropped. False
+A cloned table includes the load history of the source table. False
+Stream can be shared like a table. False
 
 
 

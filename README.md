@@ -198,6 +198,7 @@ A materialized view can be undropped. False
 A cloned table includes the load history of the source table. False
 Stream can be shared like a table. False
 Stored procedure privileges are limited to Usage and Ownership
+Pruning supported from Standard edition
 
 
 

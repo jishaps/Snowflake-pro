@@ -200,6 +200,7 @@ Stream can be shared like a table. False
 Stored procedure privileges are limited to Usage and Ownership
 Pruning supported from Standard edition
 Role to suspend a warehouse: Operate
+Which of the following are staging commands? Get, Put, Remove, List
 
 
 

@@ -201,6 +201,25 @@ Stored procedure privileges are limited to Usage and Ownership
 Pruning supported from Standard edition
 Role to suspend a warehouse: Operate
 Which of the following are staging commands? Get, Put, Remove, List
+Which stream type is supported for streams on the external table only? insert only
+Which view in the Account Usage Schema can be used to query the replication history for a specified database?REPLICATION_USAGE_HISTORY
+Which products does Snowflake offer for secure data sharing? (Select 3)Data Marketplace, Data Exchange, Direct Share
+Which privilege is required to enable altering any properties of the resource monitor, such as changing the monthly credit quote?MODIFY
+We can not replicate Temporary table and external table
+Which SQL command determines whether a network policy is set on the account or for a specific user?SHOW PARAMETERS
+A row access policy contains an expression that can specify Snowflake database objects (e.g., table or view) and use functions to determine which rows should be visible in a given context. Which of these functions are used in determining row access policy?(Select 2) Conditional Expression Functions, Context Functions
+The closer the ratio of scanned micro-partitions and columnar data is to the ratio of actual data selected, the more efficient the pruning performed on the table. (TRUE/FALSE) True
+Which schema can be used to find out about storage, compute, and objects in a Snowflake account?Information_Schema
+Snowflake prunes micro-partitions based on a predicate with a subquery, even if the subquery result is constant. (TRUE/FALSE)False
+An HTTP client that sends a URL (either scoped URL or file URL) to the REST API must be configured to allow redirects. (True/False)True
+The warehouse performance can be evaluated by querying the: Account Usage QUERY_HISTORY view
+Which of these are Snowflake Cloud Partner Categories? (Select 3)Native Programmatic Interfaces, Data IntegrationMachine Learning & Data Science
+What are all operations performed using Snowflake SQL API? (Select 4)Cancel the execution of a statement, Submit SQL statements for execution, Fetch query results concurrently, Check the status of the execution of a statement
+Which privilege is required to execute queries using a virtual warehouse?Usage
+Which of these are types of the stream? (Select 3) Standard, Insert Only, Append Only
+What are the key benefits of The Data Cloud? (Select 3)Action, Access, Governance
+What size of the virtual warehouse needs to be created by the sysadmin while loading using Snowpipe? (Select the best answer) None of these. (User doean't need to create a warehouse. It is a serverless feature)
+Which roles can use SQL to view the task history within a specified date range? (Select all that apply) Accountadmin, Task Owner having OWNERSHIP privilege on a task, Role that has the global MONITOR EXECUTION privilege
 
 
 

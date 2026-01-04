@@ -220,6 +220,20 @@ Which of these are types of the stream? (Select 3) Standard, Insert Only, Append
 What are the key benefits of The Data Cloud? (Select 3)Action, Access, Governance
 What size of the virtual warehouse needs to be created by the sysadmin while loading using Snowpipe? (Select the best answer) None of these. (User doean't need to create a warehouse. It is a serverless feature)
 Which roles can use SQL to view the task history within a specified date range? (Select all that apply) Accountadmin, Task Owner having OWNERSHIP privilege on a task, Role that has the global MONITOR EXECUTION privilege
+Python UDFs and tabular Python UDFs can read and process unstructured data in staged files using SnowflakeFile class. (True/False)True
+Temporary tables, stages, tasks, pipes, and external tables are not currently supported for replication.
+Which of these Snowflake Connectors are available? (Select all that apply)Spark, Kafka, Python
+Snowflake data providers can share data from one database per share. Data from multiple databases can not be shared with a share. (True/False)False
+What is the name of the Snowflake tool utilized for diagnosing network connectivity issues? SnowCD
+There are multiple ways you can trigger the loading of files from the stage into Snowpipe. Select two ways generally used to trigger the loading with Snowpipe.Automating Snowpipe using cloud messaging (notification), REST API
+How can you view the data storage across your entire Snowflake account? (Select 2)Using the Classic Web Interface: Click on Account > Billing & Usage > Average Storage Used., Using Snowsight: Navigate to Admin > Cost Management > Consumption
+Which of these objects do not clone? (Select 2)External Table, Internal Stage
+Which function can be used in combination with COPY command to convert the rows in a relational table to a single VARIANT column and unload the rows into a file? OBJECT_CONTRUCT
+Which methods can be used to check the status of a COPY INTO command? (Select 2)Use the Query History tab in the Snowflake user interface., Write a SQL query against the INFORMATION_SCHEMA.LOAD_HISTORY view.
+Which role has privileges to create warehouses and databases (and other objects) in an account?SYSADMIN
+The BI group is complaining about their queries taking too long to run. Checking the virtual warehouse information shows that the queued time is pretty high. What is the best way to fix this issue?Increase the virtual warehouse MAX_CLUSTER_COUNT property
+The search optimization service speeds Equality and IN predicates searches.
+SQL clause that helps define the clustering key:CLUSTER BY
 
 
 

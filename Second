@@ -2,3 +2,54 @@ Which Snowflake object helps evaluate virtual warehouse performance impacted by 
 How does a scoped URL expire? When the persisted query result period ends.
 A Snowflake user wants to temporarily bypass a network policy by configuring the user object property MINS_TO_BYPASS_NETWORK_POLICY. What should they do? Contact Snowflake Support.
 What are common issues found by using the Query Profile? (Choose two.) Identifying inefficient micro-partition pruning, Data spilling to a local or remote disk
+During periods of warehouse contention, which parameter controls the maximum length of time a warehouse will hold a query for processing? STATEMENT_QUEUED_TIMEOUT_IN_SECONDS
+What task can be performed using Snowflake Cortex AI? Extract text from unstructured data.
+What is the default access of a securable object until other access is granted? No access
+What consideration should be made when loading data into Snowflake? The number of data files that are processed in parallel is determined by the virtual warehouse.
+Which statement describes how Snowflake supports reader accounts? The SHOW MANAGED ACCOUNTS command will view all the reader accounts that have been created for an account.
+Which table function is used to perform additional processing on the results of a previously-run query? RESULT_SCAN
+Which of the following terms best describes Snowflake's database architecture? Cloud-native shared memory
+What can the Snowflake SCIM API be used to manage? (Choose two.) Users, Roles
+Which command can be used to list all the file formats for which a user has access privileges? SHOW
+What is the purpose of collecting statistics on data in Snowflake? To enable efficient pruning based on query filters
+What value provides information about disk usage for operations where intermediate results do not fit in memory in a Query Profile?  MFA is enforced in newly created Snowflake accounts if the user uses password authentication, and have their TYPE property set to PERSON or NULL.Splilling
+Which command can be used to delete staged files from a Snowflake stage when the files are no longer needed? REMOVE
+Which statistic displayed in a Query Profile is specific to external functions? Total invocations
+What are the benefits of using the Snowsight data loading interface? (Select TWO). It allows a user to insert the records of a supported file into a table.It will try to detect data types.
+What is the purpose of using the OBJECT_CONSTRUCT function with the COPY INTO command? Convert the rows in a relational table to a single VARIANT column and then unload the rows into a file.
+Snowflake will return an error when a user attempts to share which object? Standard views
+How does Snowflake use Multi-Factor Authentication (MFA)? (Choose two.) MFA is an integrated feature powered by the Duo Security service. MFA is enforced in newly created Snowflake accounts if the user uses password authentication, and have their TYPE property set to PERSON or NULL.
+What is the recommended way to insert a VARIANT value into a Snowflake table? Use a SELECT statement to convert data to a VARIANT data type before inserting it.
+Which pages are included in the Monitoring area of Snowsight? (Choose two.) Copy History, Query History
+How does Snowflake enable OAuth? By configuring a security integration
+Which Snowflake features can be enabled by calling the SYSTEM$GLOBAL_ACCOUNT_SET_PARAMETER function by a user with the ORGADMIN role? (Choose two.) Client redirect, Account and database replication
+How does Snowflake define its approach to Discretionary Access Control (DAC)? Each object has an owner, who can in turn grant access to that object.
+How does Snowflake allow a data provider with an Azure account in central Canada to share data with a data consumer on AWS in Australia? The data provider must replicate the database to a secondary account in AWS Asia Pacific within the same organization then create a share to the data consumer's account
+What does the client redirect feature in Snowflake enable? A redirect of client connections to Snowflake accounts in different regions for business continuity.
+Which of the following commands are not blocking operations? (Choose two.) COPY, INSERT
+What issues can be identified and troubleshooted using the Query Profile? (Choose two.) Cartesian products, Queries too large to fit in memory
+Why is a federated environment used for user authentication in Snowflake? To separate user authentication from user access
+A developer is granted ownership of a table that has a masking policy. The developer’s role is not able to see the masked data. Will the developer be able to modify the table to read the masked data? No, because ownership of a table does not include the ability to change masking policies.
+Given the statement template below, which database objects can be added to a share? (Choose two.) GRANT [privilege] ON [object] [object_name] TO SHARE [share_name]; Tables, Secure functions
+What does an integration between Snowflake and Microsoft Private Link or AWS PrivateLink support? A secure, direct connection to Snowflake that does not use the internet.
+Who can create network policies within Snowflake? (Choose two.) A role with the CREATE NETWORK POLICY privilege, SECURITYADMIN
+What columns are returned when performing a FLATTEN command on semi-structured data? (Choose two.) KEY, VALUE
+Which loop type iterates until a condition is true? REPEAT
+What is the MOST performant file format for loading data in Snowflake? CSV (Gzipped)
+Which item in the Data Warehouse migration process does not apply in Snowflake? Migrate Indexes
+What is the MINIMUM role required to set the value for the parameter ENABLE_ACCOUNT_DATABASE_REPLICATION? ORGADMIN
+What authentication method does the Kafka connector use within Snowflake? Key pair authentication
+A Snowflake user runs a query for 36 seconds on a size 2XL virtual warehouse. What would be the credit consumption? Snowflake will charge for 60 seconds at the rate of 32 credits per hour.
+What does Snowflake recommend when planning virtual warehouse usage for a data load? Dedicate a separate warehouse for loading data.
+Which common query problems can the Query Profile help a user identify and troubleshoot? (Choose two.) When there are exploding joins, UNION without ALL 
+Which Snowflake governance feature allows users to assign metadata labels to improve data governance and database access control? Object tagging
+How can network and private connectivity security be managed in Snowflake? By setting up network policies with IPv4 IP addresses
+Which statement accurately describes how a virtual warehouse functions? Each virtual warehouse is a compute cluster composed of multiple compute nodes allocated by Snowflake from a cloud provider.
+What triggers the automated maintenance of a table's clustering key after it has been defined? A Snowflake determination that the table will benefit from maintenance.
+What is the purpose of the Snowflake SPLIT_TO_TABLE function? To split a string and flatten the results into rows
+An external stage, my_stage contains many directories, including one, app_files that contains CSV files. How can all the CSV files from this directory be moved into table my_table without scanning files that are not needed? COPY INTO my_table FROM @my_stage/app_files PATTERN='.*[.]c
+A Snowflake user wants to share data using my_share with account xy12345. Which command should be used? alter share my_share add accounts = xy12345;
+Which Snowflake object can be created to be temporary? Stage
+Snowflake’s hierarchical key mode includes which keys? (Choose two.) File keys, Account master keys
+Which security feature is used to connect or log in to a Snowflake account? Key pair authentication
+Which file format will keep floating-point numbers from being truncated when data is unloaded? Parquet

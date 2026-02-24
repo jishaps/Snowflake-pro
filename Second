@@ -49,6 +49,13 @@ What triggers the automated maintenance of a table's clustering key after it has
 What is the purpose of the Snowflake SPLIT_TO_TABLE function? To split a string and flatten the results into rows
 An external stage, my_stage contains many directories, including one, app_files that contains CSV files. How can all the CSV files from this directory be moved into table my_table without scanning files that are not needed? COPY INTO my_table FROM @my_stage/app_files PATTERN='.*[.]c
 A Snowflake user wants to share data using my_share with account xy12345. Which command should be used? alter share my_share add accounts = xy12345;
+Which Snowflake data governance feature can support auditing when a user query reads column data? Access History
+Regardless of which notation is used, what are considerations for writing the column name and element names when traversing semi-structured data? e column name is case-insensitive but element names are case-sensitive.
+What information is included in the display in the Query Profile? (Choose two.) Details and statistics for the overall query, Graphical representation of the query processing plan
+What aspect of an executed query is represented by the remote disk I/O statistic of the Query Profile in Snowflake? Time spent reading and writing data from and to remote storage when the data being accessed does not fit into either the virtual warehouse memory or the local disk
+What are the key characteristics of ACСOUNT_USAGE views? (Choose two.) The data latency can vary from 45 minutes to 3 hours.Records for dropped objects are included in each view.
+
+
 Which Snowflake object can be created to be temporary? Stage
 Snowflake’s hierarchical key mode includes which keys? (Choose two.) File keys, Account master keys
 Which security feature is used to connect or log in to a Snowflake account? Key pair authentication

@@ -1,0 +1,4 @@
+Which Snowflake object helps evaluate virtual warehouse performance impacted by query queuing? Information_schema.warehouse_load_history
+How does a scoped URL expire? When the persisted query result period ends.
+A Snowflake user wants to temporarily bypass a network policy by configuring the user object property MINS_TO_BYPASS_NETWORK_POLICY. What should they do? Contact Snowflake Support.
+What are common issues found by using the Query Profile? (Choose two.) Identifying inefficient micro-partition pruning, Data spilling to a local or remote disk
